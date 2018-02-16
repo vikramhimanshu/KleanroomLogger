@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KleanroomLogger_Tests' do
+  pod 'KleanroomLogger', :path => '../'
+  
+  
+end
