@@ -1,0 +1,22 @@
+{
+  "name": "KleanroomLogger",
+  "version": "0.1.0",
+  "summary": "A short description of KleanroomLogger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vikramhimanshu/KleanroomLogger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vikramhimanshu": "himanshu@kreativapps.com"
+  },
+  "source": {
+    "git": "https://github.com/vikramhimanshu/KleanroomLogger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KleanroomLogger/Classes/**/*"
+}

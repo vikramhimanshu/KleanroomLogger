@@ -1,0 +1,16 @@
+PODS:
+  - KleanroomLogger (0.1.0)
+
+DEPENDENCIES:
+  - KleanroomLogger (from `../`)
+
+EXTERNAL SOURCES:
+  KleanroomLogger:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KleanroomLogger: c1ed05721a04f57b89938ddd8ff9007e9335b871
+
+PODFILE CHECKSUM: 1e6a2c47de8bea4b4fb2599987b391176ec6fda0
+
+COCOAPODS: 1.4.0
