@@ -27,10 +27,10 @@ Pod::Spec.new do |s|
   s.author           = { 'vikramhimanshu' => 'himanshu@kreativapps.com' }
   s.source           = { :git => 'https://github.com/vikramhimanshu/KleanroomLogger.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '3.2'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KleanroomLogger/Classes/**/*'
+  s.source_files = 'KleanroomLogger/Sources/**/*'
   
   # s.resource_bundles = {
   #   'KleanroomLogger' => ['KleanroomLogger/Assets/*.png']

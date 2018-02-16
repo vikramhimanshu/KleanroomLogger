@@ -7,92 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C407459BCF20FFC0FCBB4BD4DB1C9AE /* Pods-KleanroomLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C091CF464703931CD9E1CA4851A7DF10 /* Pods-KleanroomLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45183850A3E1031B8A04DE71D4F0BC3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5A0CD13C6229FC2CA743A6AD271CF373 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052433FC19EF07B0108E31D0EB47C835 /* ReplaceMe.swift */; };
-		6F9A23693E88CF25E42E4AE13C7ABFB7 /* KleanroomLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E1B20DB8E9839588033614BCED3984 /* KleanroomLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74BB318D450A12E2B56FF3E8E5DF68EC /* Pods-KleanroomLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7359121EE4836F0971841B76168F1F /* Pods-KleanroomLogger_Tests-dummy.m */; };
-		A1C7FD01DAD0773092A40BA1ED4381B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C3C6B1819B3063987A92226B4DCDF15C /* KleanroomLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9798CCDC8AC25E716EF0552359A5086 /* KleanroomLogger-dummy.m */; };
+		698CFAC4316DA1542FE97CA26DDD821E /* Pods-KleanroomLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7359121EE4836F0971841B76168F1F /* Pods-KleanroomLogger_Tests-dummy.m */; };
+		ACEFC85C2497B81B613DF7FD6F148FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EA84DBB80E55CC88BC18686928D5A600 /* Pods-KleanroomLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C091CF464703931CD9E1CA4851A7DF10 /* Pods-KleanroomLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		ACB21A998809B45AA52B732407A208B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C15539E3243E7824520C14008A54DE8B;
-			remoteInfo = KleanroomLogger;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		03ACD74C091BEF0BA041B8F222F9D63D /* KleanroomLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KleanroomLogger.modulemap; sourceTree = "<group>"; };
-		052433FC19EF07B0108E31D0EB47C835 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KleanroomLogger/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		09AD5DECE716113EBF360EA789C7CF35 /* KleanroomLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KleanroomLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0BA1CC9511355B8D472A3A7485889D54 /* Pods-KleanroomLogger_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KleanroomLogger_Tests-resources.sh"; sourceTree = "<group>"; };
-		0C56D84D2D371C4274BBFD2AB75476EC /* KleanroomLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KleanroomLogger.framework; path = KleanroomLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		261CA4CFE74B5404C2302EF67151BCA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		328B0CCD9E484A5A65CD47319D1F9BFB /* Pods_KleanroomLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KleanroomLogger_Tests.framework; path = "Pods-KleanroomLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		32C3546710B9854155440E8FD1AF3EF0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5470B43CEC978DF951247190AD0A58C9 /* KleanroomLogger.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KleanroomLogger.xcconfig; sourceTree = "<group>"; };
+		39BB97B3A2E28EB4D7B13C5D7DBB0C4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		459E078855E597EEE5B2B3247E16AF4A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5C90FA28473CF592885302A0F56C7F14 /* Pods-KleanroomLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KleanroomLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6757A15E1B7F66AFCF912695D2235C25 /* Pods-KleanroomLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KleanroomLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		7452DBEB860672A3D2F20E19387E8215 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A7359121EE4836F0971841B76168F1F /* Pods-KleanroomLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KleanroomLogger_Tests-dummy.m"; sourceTree = "<group>"; };
-		8387D825F5EE6623505947B51C1CC520 /* KleanroomLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KleanroomLogger-prefix.pch"; sourceTree = "<group>"; };
+		8B9146F654135A2331D8CF6FAC8CC07E /* KleanroomLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KleanroomLogger.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		97BC627AFC544B6D8872A5C47110B864 /* Pods_KleanroomLogger_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KleanroomLogger_Tests.framework; path = "Pods-KleanroomLogger_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1C6912298FDD6E042A2FE01039264C /* Pods-KleanroomLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KleanroomLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C091CF464703931CD9E1CA4851A7DF10 /* Pods-KleanroomLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KleanroomLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CBC6108A209ADE98402DA3333BB958BC /* Pods-KleanroomLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KleanroomLogger_Tests.modulemap"; sourceTree = "<group>"; };
-		D5E1B20DB8E9839588033614BCED3984 /* KleanroomLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KleanroomLogger-umbrella.h"; sourceTree = "<group>"; };
 		EB2C982141EA5C319C56A05BF724446D /* Pods-KleanroomLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KleanroomLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ED85C373ACAA7268F969CBF20E0B6A86 /* Pods-KleanroomLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KleanroomLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4CB0E1B8F91EAD3E79D1C54746E155B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		F9798CCDC8AC25E716EF0552359A5086 /* KleanroomLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KleanroomLogger-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB2FBB34B606325682A13F8A9CAA3180 /* Frameworks */ = {
+		CA4FC533910E31DA4554CD6DC546F1F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1C7FD01DAD0773092A40BA1ED4381B6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E7385C339E26C05DC61F7925E1E616FA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				45183850A3E1031B8A04DE71D4F0BC3B /* Foundation.framework in Frameworks */,
+				ACEFC85C2497B81B613DF7FD6F148FB9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		391D247D51889FA19C7FCDDB4DB59C7A /* KleanroomLogger */ = {
-			isa = PBXGroup;
-			children = (
-				052433FC19EF07B0108E31D0EB47C835 /* ReplaceMe.swift */,
-				F97896412297E6AEAC0D24CB7696619F /* Pod */,
-				DD1D78B927E3F552C59E0B8D4EB31680 /* Support Files */,
-			);
-			name = KleanroomLogger;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3B1C7B4DCC26037EA55561DDA897396B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0C56D84D2D371C4274BBFD2AB75476EC /* KleanroomLogger.framework */,
-				328B0CCD9E484A5A65CD47319D1F9BFB /* Pods_KleanroomLogger_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		718395D96B780E79D1EF7E6A8392485A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,11 +55,21 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F6E4D1FD22A0654EF0F18893167CAB15 /* Development Pods */,
+				DA0D1EBBD0D5335A9DAED03ECC78BA2A /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3B1C7B4DCC26037EA55561DDA897396B /* Products */,
+				CE8B632586837C55B3EED226AF533B7E /* Products */,
 				718395D96B780E79D1EF7E6A8392485A /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		8111F663226EFED9F3A00B7DE3B1FF0B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B9146F654135A2331D8CF6FAC8CC07E /* KleanroomLogger.podspec */,
+				39BB97B3A2E28EB4D7B13C5D7DBB0C4F /* LICENSE */,
+				459E078855E597EEE5B2B3247E16AF4A /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -118,6 +78,23 @@
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8AB353B583C159D7BF352AAB6FC490E /* KleanroomLogger */ = {
+			isa = PBXGroup;
+			children = (
+				8111F663226EFED9F3A00B7DE3B1FF0B /* Pod */,
+			);
+			name = KleanroomLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CE8B632586837C55B3EED226AF533B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97BC627AFC544B6D8872A5C47110B864 /* Pods_KleanroomLogger_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -146,93 +123,43 @@
 			path = "Target Support Files/Pods-KleanroomLogger_Tests";
 			sourceTree = "<group>";
 		};
-		DD1D78B927E3F552C59E0B8D4EB31680 /* Support Files */ = {
+		DA0D1EBBD0D5335A9DAED03ECC78BA2A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				32C3546710B9854155440E8FD1AF3EF0 /* Info.plist */,
-				03ACD74C091BEF0BA041B8F222F9D63D /* KleanroomLogger.modulemap */,
-				5470B43CEC978DF951247190AD0A58C9 /* KleanroomLogger.xcconfig */,
-				F9798CCDC8AC25E716EF0552359A5086 /* KleanroomLogger-dummy.m */,
-				8387D825F5EE6623505947B51C1CC520 /* KleanroomLogger-prefix.pch */,
-				D5E1B20DB8E9839588033614BCED3984 /* KleanroomLogger-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KleanroomLogger";
-			sourceTree = "<group>";
-		};
-		F6E4D1FD22A0654EF0F18893167CAB15 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				391D247D51889FA19C7FCDDB4DB59C7A /* KleanroomLogger */,
+				C8AB353B583C159D7BF352AAB6FC490E /* KleanroomLogger */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F97896412297E6AEAC0D24CB7696619F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				09AD5DECE716113EBF360EA789C7CF35 /* KleanroomLogger.podspec */,
-				261CA4CFE74B5404C2302EF67151BCA3 /* LICENSE */,
-				F4CB0E1B8F91EAD3E79D1C54746E155B /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7A00B4B4B638A85F1742E4441D21FD39 /* Headers */ = {
+		DE7C423F4C3D452BB4DA6860C529A343 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F9A23693E88CF25E42E4AE13C7ABFB7 /* KleanroomLogger-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ED5BF29687C59DD94FEBBD7FB65A067 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C407459BCF20FFC0FCBB4BD4DB1C9AE /* Pods-KleanroomLogger_Tests-umbrella.h in Headers */,
+				EA84DBB80E55CC88BC18686928D5A600 /* Pods-KleanroomLogger_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2778A9EEC8400BB0976D1F35C18CD94D /* Pods-KleanroomLogger_Tests */ = {
+		B955E6DE040CE9C1F127190C37A94832 /* Pods-KleanroomLogger_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A450233DC9BD0004E275DF74B4AE077A /* Build configuration list for PBXNativeTarget "Pods-KleanroomLogger_Tests" */;
+			buildConfigurationList = E15B49C22865A4EE275732AE21B51AC8 /* Build configuration list for PBXNativeTarget "Pods-KleanroomLogger_Tests" */;
 			buildPhases = (
-				77ED2FAC34F9D5E06AF3BB060885A33D /* Sources */,
-				DB2FBB34B606325682A13F8A9CAA3180 /* Frameworks */,
-				9ED5BF29687C59DD94FEBBD7FB65A067 /* Headers */,
+				C5D102FCC2FC06844AFC86576E0E3ED3 /* Sources */,
+				CA4FC533910E31DA4554CD6DC546F1F3 /* Frameworks */,
+				DE7C423F4C3D452BB4DA6860C529A343 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B37CC58C4EF1A3CEDED7643FFF1B55C7 /* PBXTargetDependency */,
 			);
 			name = "Pods-KleanroomLogger_Tests";
 			productName = "Pods-KleanroomLogger_Tests";
-			productReference = 328B0CCD9E484A5A65CD47319D1F9BFB /* Pods_KleanroomLogger_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C15539E3243E7824520C14008A54DE8B /* KleanroomLogger */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BD6D822133F6928E39FD5EA084CAC01C /* Build configuration list for PBXNativeTarget "KleanroomLogger" */;
-			buildPhases = (
-				3BC4233F758F6905C107B2AD0D54CA46 /* Sources */,
-				E7385C339E26C05DC61F7925E1E616FA /* Frameworks */,
-				7A00B4B4B638A85F1742E4441D21FD39 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KleanroomLogger;
-			productName = KleanroomLogger;
-			productReference = 0C56D84D2D371C4274BBFD2AB75476EC /* KleanroomLogger.framework */;
+			productReference = 97BC627AFC544B6D8872A5C47110B864 /* Pods_KleanroomLogger_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,80 +179,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 3B1C7B4DCC26037EA55561DDA897396B /* Products */;
+			productRefGroup = CE8B632586837C55B3EED226AF533B7E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C15539E3243E7824520C14008A54DE8B /* KleanroomLogger */,
-				2778A9EEC8400BB0976D1F35C18CD94D /* Pods-KleanroomLogger_Tests */,
+				B955E6DE040CE9C1F127190C37A94832 /* Pods-KleanroomLogger_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BC4233F758F6905C107B2AD0D54CA46 /* Sources */ = {
+		C5D102FCC2FC06844AFC86576E0E3ED3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3C6B1819B3063987A92226B4DCDF15C /* KleanroomLogger-dummy.m in Sources */,
-				5A0CD13C6229FC2CA743A6AD271CF373 /* ReplaceMe.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77ED2FAC34F9D5E06AF3BB060885A33D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74BB318D450A12E2B56FF3E8E5DF68EC /* Pods-KleanroomLogger_Tests-dummy.m in Sources */,
+				698CFAC4316DA1542FE97CA26DDD821E /* Pods-KleanroomLogger_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B37CC58C4EF1A3CEDED7643FFF1B55C7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KleanroomLogger;
-			target = C15539E3243E7824520C14008A54DE8B /* KleanroomLogger */;
-			targetProxy = ACB21A998809B45AA52B732407A208B0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		23A75679CEA58E909A6D81B7B56E2A2E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C90FA28473CF592885302A0F56C7F14 /* Pods-KleanroomLogger_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KleanroomLogger_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KleanroomLogger_Tests/Pods-KleanroomLogger_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_KleanroomLogger_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -386,9 +260,9 @@
 			};
 			name = Debug;
 		};
-		6C051C4598478589268586D4898C0DB4 /* Debug */ = {
+		543B2C260E3E92390FE1BA97517B3313 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5470B43CEC978DF951247190AD0A58C9 /* KleanroomLogger.xcconfig */;
+			baseConfigurationReference = 5C90FA28473CF592885302A0F56C7F14 /* Pods-KleanroomLogger_Tests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -399,23 +273,25 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KleanroomLogger/KleanroomLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KleanroomLogger/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-KleanroomLogger_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KleanroomLogger/KleanroomLogger.modulemap";
-				PRODUCT_NAME = KleanroomLogger;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KleanroomLogger_Tests/Pods-KleanroomLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KleanroomLogger_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -472,39 +348,7 @@
 			};
 			name = Release;
 		};
-		DD958CB003A7A3B99239424F58B2A712 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5470B43CEC978DF951247190AD0A58C9 /* KleanroomLogger.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KleanroomLogger/KleanroomLogger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KleanroomLogger/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KleanroomLogger/KleanroomLogger.modulemap";
-				PRODUCT_NAME = KleanroomLogger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FF3A143CAEE79C9378F333F6A6FEBE6B /* Debug */ = {
+		E5737BBB6D6F14EC577FC9DC186A69E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED85C373ACAA7268F969CBF20E0B6A86 /* Pods-KleanroomLogger_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -530,8 +374,6 @@
 				PRODUCT_NAME = Pods_KleanroomLogger_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -550,20 +392,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A450233DC9BD0004E275DF74B4AE077A /* Build configuration list for PBXNativeTarget "Pods-KleanroomLogger_Tests" */ = {
+		E15B49C22865A4EE275732AE21B51AC8 /* Build configuration list for PBXNativeTarget "Pods-KleanroomLogger_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF3A143CAEE79C9378F333F6A6FEBE6B /* Debug */,
-				23A75679CEA58E909A6D81B7B56E2A2E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BD6D822133F6928E39FD5EA084CAC01C /* Build configuration list for PBXNativeTarget "KleanroomLogger" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6C051C4598478589268586D4898C0DB4 /* Debug */,
-				DD958CB003A7A3B99239424F58B2A712 /* Release */,
+				E5737BBB6D6F14EC577FC9DC186A69E0 /* Debug */,
+				543B2C260E3E92390FE1BA97517B3313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

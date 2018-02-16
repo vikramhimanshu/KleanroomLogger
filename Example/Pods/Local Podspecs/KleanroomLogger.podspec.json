@@ -1,8 +1,8 @@
 {
   "name": "KleanroomLogger",
   "version": "0.1.0",
-  "summary": "A short description of KleanroomLogger.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "KleanroomLogger provides access to an extensible Swift-based logging API called CleanroomLogger",
+  "description": "'CleanroomLogger provides an extensible Swift-based logging API that is simple, lightweight and performant.'",
   "homepage": "https://github.com/vikramhimanshu/KleanroomLogger",
   "license": {
     "type": "MIT",
@@ -15,8 +15,9 @@
     "git": "https://github.com/vikramhimanshu/KleanroomLogger.git",
     "tag": "0.1.0"
   },
+  "swift_version": "3.2",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "KleanroomLogger/Classes/**/*"
+  "source_files": "KleanroomLogger/Sources/**/*"
 }
