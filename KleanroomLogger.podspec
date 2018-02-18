@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.swift_version = '3.2'
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KleanroomLogger/Sources/**/*'
+  s.source_files = 'Sources/**/*'
   
   # s.resource_bundles = {
   #   'KleanroomLogger' => ['KleanroomLogger/Assets/*.png']
